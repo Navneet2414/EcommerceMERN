@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    margin:5px;
+    padding: 5px;
+    /* border:solid black 2px; */
+    background-color: yellowgreen;
+}
+
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+    padding-right: 60px; /* Adjust as needed */
+}
+
+.imageProfile {
+    max-width: 30%;
+    height: auto;
+    right:1;
+    border:solid rgb(129, 39, 247) 15px;
+    border-radius: 150px;
+    
+    /* display:flex; */
+}
+
+.textContainer {
+    position: absolute;
+    top: 0;
+    left: 1;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border:solid black 2px; */
+}
+
+/* .paragraph,
+.heading {
+    margin: 0;
+} */
+.paragraph{
+
+    text-decoration: underline;
+    color: blue;
+}
+.heading{
+    color: blue;
+}
+.logo_image{
+    width:40px;
+    height: 50px;
+    
+    padding-left:65px ;
+
+}
+.content{
+    padding-left: 250px;
+    /* border:solid black 2px; */
+    /* color:orange; */
+}
+.red{
+    color: red;
+}
+.green{
+    color:green
+}
